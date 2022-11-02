@@ -1,3 +1,5 @@
 ## Hi there :wave:
 
-![JacemChaieb](./dev.gif)
+<p align="center">
+  <img src="./dev.webp" alt="Jacem Chaieb">
+</p>
