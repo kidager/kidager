@@ -1,4 +1,4 @@
-# Visit https://github.com/lowlighter/metrics#-documentation for full reference
+# Visit https://github.com/kidager/metrics#-documentation for full reference
 name: Metrics
 
 on:
@@ -10,11 +10,11 @@ on:
 
 jobs:
   github-metrics:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+      - uses: kidager/metrics@f912e0ad394a69e47a6677097ebf980b6c0b56b4 # v3.35.0
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           # Options
