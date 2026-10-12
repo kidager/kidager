@@ -14,7 +14,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: kidager/metrics@f912e0ad394a69e47a6677097ebf980b6c0b56b4 # v3.35.0
+      - uses: kidager/metrics@ff52df6d2b24b9b6e454433f3aba2140a5895ee0 # v3.35.1
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           # Options
